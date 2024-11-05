@@ -3,13 +3,13 @@ altura = 1.74
 peso = 95
 imc = peso / (altura * altura)
 
-linha_1 = f'{nome} tem {altura:.3} de altura\n'
+linha_1 = f'{nome} tem {altura:.3f} de altura\n'
 print(linha_1)
 
-linha_2 = f'Meu nome é: {nome} e tenho {altura:.3} de altura'
+linha_2 = f'Meu nome é: {nome} e tenho {altura:.3f} de altura'
 print(linha_2)
 
-linha_3 = f'Eu estou pesando: {peso}KL e  meu IMC é de {imc:.3}\n'
+linha_3 = f'Eu estou pesando: {peso}KL e  meu IMC é de {imc:.3f}\n'
 print(linha_3)
 
 #print(nome, altura, peso, imc)
