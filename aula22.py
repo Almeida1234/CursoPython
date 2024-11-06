@@ -25,4 +25,4 @@
 senha = input('Senha: ') or 'Sem senha'
 print(senha)
 print(True or 1 or True)
-print(bool(''))
+print(bool(' '))
