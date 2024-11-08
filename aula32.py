@@ -17,8 +17,11 @@ if entrada.isdigit():
 else:
     print('Você não digitou um número inteiro')
 
+
+numero = input('Digite um número: ')
+
 try:
-    entrada_int = float(entrada)
+    entrada_int = float(numero)
     par_impar = entrada_int % 2 == 0
     par_impar_texto = 'ímpar'
 
@@ -29,6 +32,9 @@ try:
 except:
     print('Você não digitou um número inteiro')
 
+print(f'\n')
+print(f"-" * 20)
+print(f'\n')
 
 
 """
@@ -52,6 +58,9 @@ try:
 except:
     print(f'Por favor, digite apenas números inteiros')
 
+print(f'\n')
+print(f'-' * 20)
+print(f'\n')
 
 
 """
@@ -59,8 +68,8 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
-entrada = input('Escreva seu primeiro nome: ')
-nome = len(entrada)
+numero = input('Escreva seu primeiro nome: ')
+nome = len(numero)
 
 if nome > 1 and nome < 5:
     print(f'Seu nome é curto')
@@ -70,6 +79,7 @@ elif nome > 6:
     print(f'Seu nome é muito grande')
 else:
     print(f'Digite um nome valido')
+
 
 nome = input('Digite seu nome: ')
 tamanho_nome = len(nome)
