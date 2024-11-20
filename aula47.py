@@ -15,7 +15,7 @@ Faça a contagem de tentativas do seu
 usuário.
 """
 
-
+import os
 
 #Meu código
 palavra_secreta = 'Cecilia'.lower()
@@ -49,6 +49,7 @@ while palavra_formada != palavra_secreta:
             palavra_formada += '*'
     print(f'Palavra formada: {palavra_formada}')
 
+os.system('clear')
 print(f'"PARABÉNSA"' \
       f'A palavra secreta é: "{palavra_secreta}" você acertou!\n' \
       f'você tentou: {contador}X')
